@@ -1,0 +1,86 @@
+/* Misc. formatting */ 
+body {
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Header section */
+header{
+    text-align: center;
+    overflow: visible;
+}
+    /* Navbar */
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: Dodgerblue;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 20px auto;
+    padding: 0 5px;
+    font-weight: bold;
+}
+    /* Ensure that table titles aren't obscured by navbar when following the anchor elements */
+section {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+
+/* Table section */
+table {
+    border: 4px solid dodgerblue;
+    min-width: 800px;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: orange;
+}
+
+th, td {
+    border-bottom: 2px solid dodgerblue;
+    padding: 0.25em 0;
+}
+    /* Set Column widths */
+th:nth-child(1), td:nth-child(1) {
+    width: 20%;
+    }
+    
+th:nth-child(2), td:nth-child(2) {
+width: 40%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+width: 40%;
+}
+    /* Format the code snippets properly */
+.code {
+    background-color: lightsteelblue;
+    font-family: monospace;
+}
+    /* Color every other row */
+tbody tr:nth-child(odd) {
+    background-color: bisque
+}
