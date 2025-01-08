@@ -22,7 +22,7 @@ header{
 nav {
     position: sticky;
     top: 0px;
-    background-color: Dodgerblue;
+    background-color: dodgerblue;
     width: 100%;
     z-index: 1;
 }
@@ -81,6 +81,6 @@ width: 40%;
     font-family: monospace;
 }
     /* Color every other row */
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(even) {
     background-color: bisque
 }

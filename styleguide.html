@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+
+    <!-- Import Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styleguide.css" type="text/css">
+</head>
+<body>
+    <header>
+        <section class="title">
+            <h1>My website styleguide</h1>
+            <span class="subtitle">...that I may or may not actually use</span>
+        </section>
+        <nav>
+            <a href="#colors">Colors</a>
+            <a href="#fonts">Fonts</a>
+            <a href="#text">Text</a>
+            <a class="home" href="./index.html">Back to home</a>
+        </nav>
+    </header>    
+    <main>
+        <section id="colors">
+            <h2>Colors</h2>
+            <div class="color-container">
+                <div class="color-panel dodgerblue">
+                    <p class="color-label">DodgerBlue</p>
+                    <p class="color-hex">#1E90FF</p>
+                </div>
+                <div class="color-panel lightsteelblue">
+                    <p class="color-label">LightSteelBlue</p>
+                    <p class="color-hex">#B0C4DE</p>
+                </div>
+                <div class="color-panel orange">
+                    <p class="color-label">Orange</p>
+                    <p class="color-hex">#FFA500</p>
+                </div>
+                <div class="color-panel bisque">
+                    <p class="color-label">Bisque</p>
+                    <p class="color-hex">#FFE4C4</p>
+                </div>
+            </div>
+        </section>
+        <section id="fonts">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <div class="font-panel roboto">
+                    <h3 class="font-title">Roboto</h3>
+                    <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel noto-sans">
+                    <h3 class="font-title">Noto Sans</h3>
+                    <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel space-mono">
+                    <h3 class="font-title">Space Mono</h3>
+                    <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="font-italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+        </section>
+        <section id="text">
+            <h2>Text Styles</h2>
+            <div class="text-container">
+                <div class="text-panel h1-panel">
+                    <h1>H1: Main heading</h1>
+                    <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-size: 30px</li>
+                        <li>Font-family: Roboto</li>
+                    </ul>
+                </div>
+                <div class="text-panel h2-panel">
+                    <h2>H2: Subheading</h2>
+                    <ul>
+                        <li>Font-weight: 600</li>
+                        <li>Font-size: 24px</li>
+                        <li>Font-family: Noto Sans</li>
+                    </ul>
+                </div>
+                <div class="text-panel h3-panel">
+                    <h3>H3: Mini heading</h3>
+                    <ul>
+                        <li>Font-weight: 500</li>
+                        <li>Font-size: 18px</li>
+                        <li>Font-family: Noto Sans</li>
+                    </ul>
+                </div>
+                <div class="text-panel p-panel">
+                    <p>P: Paragraph text (also default for lists and tables)</p>
+                    <ul>
+                        <li>Font-weight: 400</li>
+                        <li>Font-size: 16px</li>
+                        <li>Font-family: Noto Sans</li>
+                    </ul>
+                </div>
+                <div class="text-panel code-panel">
+                    <p><span class="code">Code snippets</span></p>
+                    <ul>
+                        <li><span class="code">Font-weight: 500</span></li>
+                        <li><span class="code">Font-size: 18px</span></li>
+                        <li><span class="code">Font-family: Space Mono</span></li>
+                        <li><span class="code">Background-color: LightSteelBlue (#B0C4DE)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

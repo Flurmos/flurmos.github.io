@@ -1,0 +1,171 @@
+html {
+    scroll-padding-top: 50px;
+}
+body {
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;   
+    padding: 0;
+    margin: 0; 
+    
+}
+h1 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Header/nav section */
+
+header {
+    display: flex;
+    display: relative;
+    justify-content: space-between;
+    background: dodgerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: -5px 0;
+    z-index: 1;
+}
+.title {
+    margin-left: 10px;
+}
+.title h1 {
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+    margin-top: 0;
+}
+.subtitle {
+    font-weight: 300;
+    font-size: 10px;
+    vertical-align: super;
+}
+.title h1, .subtitle, nav a {
+ color: white;
+}
+    /* Nav config */
+nav {
+    display: flex;
+    align-items: stretch;
+    margin-right: 14px;
+}
+.home {
+    margin-left: 30px;
+}
+.home::before {
+    content: "|";
+    padding-right: 0px;
+    font-size: 2em;
+    font-weight: bold;
+} 
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 5px;
+}
+nav a:hover {
+    background-color: orange;    
+}
+nav a:active {
+    color: black;
+}
+    /* End of nav config */
+/* End of header/nav section */
+/* Main content */
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+}    
+main section {
+    border: 2px solid bisque;
+    margin: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+    /* General for all sections */
+
+.color-container, .font-container, .text-container {
+    width: 100%;
+    display: flex;
+}
+    /* Color section */
+
+.color-panel {
+    width:24%;
+    height: 150px;
+    display:inline-block;
+    margin: 0 auto;
+
+}
+.color-label, .color-hex {
+    text-align: center;
+    margin: 30px auto;
+}
+.dodgerblue {
+    background-color: dodgerblue;
+}
+.lightsteelblue {
+    background-color: lightsteelblue;
+}
+.orange {
+    background-color: orange;
+}
+.bisque {
+    background-color: bisque;
+}
+
+    /* End of color section */
+    /* Fonts section */
+
+.font-panel {
+    margin: 0 10px;
+}
+.font-title {
+    text-decoration: underline;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-italic {
+    font-style: italic
+
+}
+.roboto {
+    font-family: "Roboto";
+}
+.noto-sans {
+    font-family: "Noto Sans";
+}
+.space-mono {
+    font-family: "Space Mono";
+}
+
+    /* End of fonts section */
+    /* Text styles section */
+
+.text-container {
+    flex-wrap: wrap;
+}
+.text-panel {
+    width: 30%;
+    margin: 0 auto;
+}
+.code {
+    font-family: "Space Mono",'Courier New', Courier, monospace;
+    background-color: lightsteelblue;
+}
